@@ -1,0 +1,72 @@
+/* DISPLAY ON TABLET */
+
+@media only screen and (max-width: 1000px) {
+  .container h2 {
+    animation-play-state: paused;
+    font-size: 30px;
+    padding-top: 0%;
+    margin-top: 10px;
+  }
+
+  .header-list a {
+    line-height: 30px;
+    margin: 10px;
+  }
+}
+/* DISPLAY ON HP */
+@media only screen and (max-width: 600px) {
+  .header-list a {
+    display: none;
+  }
+
+  .container h2 {
+    display: none;
+  }
+
+  .header-logo {
+    padding-right: 0%;
+  }
+
+  .logo {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navigasi {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .navigasi a {
+    background-color: rgb(14, 250, 14);
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: o;
+    border-radius: 10px;
+  }
+
+  .navigasi:hover span.nav-list {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(252, 207, 7);
+  }
+
+  span.nav-list {
+    display: none;
+    height: 30px;
+    border-bottom: solid white;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,68 @@
+li {
+  list-style: none;
+  float: left;
+}
+
+header {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 0;
+}
+
+.navigasi {
+  display: none;
+}
+
+.container h2 {
+  margin: 20px 10px;
+  float: left;
+  font-size: 30px;
+  position: relative;
+  animation: animation-h2 5s linear 2s infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes animation-h2 {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 40%;
+  }
+}
+
+.header-logo {
+  float: left;
+}
+
+.logo {
+  width: 100px;
+  height: 65px;
+  margin-top: 0px;
+}
+
+.header-list {
+  line-height: 65px;
+  display: block;
+}
+
+.header-list a {
+  margin: 5px 25px;
+  float: right;
+  padding: 0px 25px;
+  background-color: rgb(47, 255, 47);
+  color: white;
+  border-radius: 10px;
+}
+
+.header-list a:hover {
+  background-color: rgb(252, 207, 7);
+}
